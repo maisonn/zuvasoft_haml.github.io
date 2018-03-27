@@ -1,0 +1,40 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
+    / Use the title from a page's frontmatter if it has one
+    %title Решения
+    %link{:href => "stylesheets/site.css", :rel => "stylesheet"}/
+    %script{:src => "javascripts/site.js"}
+  %body#answers
+    %header
+      .Logo
+        %a{:href => "index.html"}
+          %img.logoimg{:alt => "Logo", :src => "images/Logo.png"}/
+    %header
+      %nav
+        %ul.top-menu
+          %li.active
+            %a{:href => "answers.html"} Решения
+          %li
+            %a{:href => "forwho.html"} Для кого
+          %li
+            %a{:href => "team.html"} Команда
+          %li
+            %a{:href => "presentation.html"} Презентация
+    .content
+      %span 01
+      %h1
+        Комереское и информационное консультатирование
+      %span 02
+      %h1
+        Управленческий аудит и внедрение организационных изменений
+      %span 03
+      %h1
+        Разработка и внедрение програмных комплексов
+    %footer
+      .responsive
+        %img{:alt => "arrowdown", :src => "images/arrowdown.png"}/

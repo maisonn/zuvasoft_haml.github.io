@@ -1,0 +1,32 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
+    / Use the title from a page's frontmatter if it has one
+    %title Команда
+    %link{:href => "stylesheets/site.css", :rel => "stylesheet"}/
+    %script{:src => "javascripts/site.js"}
+  %body
+    %header
+      .Logo
+        %a{:href => "index.html"}
+          %img.logoimg{:alt => "Logo", :src => "images/Logo.png"}/
+    %header
+      %nav
+        %ul.top-menu
+          %li
+            %a{:href => "answers.html"} Решения
+          %li
+            %a{:href => "forwho.html"} Для кого
+          %li.active
+            %a{:href => "team.html"} Команда
+          %li
+            %a{:href => "presentation.html"} Презентация
+    .content
+      %span Команда
+    %footer
+      .responsive
+        %img{:alt => "arrowdown", :src => "images/arrowdown.png"}/
